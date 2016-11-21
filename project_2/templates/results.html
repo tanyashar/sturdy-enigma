@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RESULTS</title>
+</head>
+<body>
+
+{% if num!='0' %}
+<p>Информанты в возрасте от {{ dct['age_l'] }} до {{ dct['age_r'] }} называли посуду на выбранном изображении:
+<ul>
+	{% for key in lst_cr %}
+		{% if key=='plate' %}<li>Тарелка</li>{% endif %}
+		{% if key=='bowl' %}<li>Миска</li>{% endif %}
+		{% if key=='cup' %}<li>Чашка</li>{% endif %}
+		{% if key=='saucer' %}<li>Блюдце</li>{% endif %}
+		{% if key=='tea-bowl' %}<li>Пиала</li>{% endif %}
+		{% if key=='salad-bowl' %}<li>Салатник/Салатница</li>{% endif %}
+		{% if key=='little-bowl' %}<li>Плошка</li>{% endif %}
+	{% endfor %}
+</ul>	
+</p>
+{% endif %}
+
+{% if num=='0' %}
+<p>К сожалению, не было опрошено ни одного информанта в возрасте от {{ dct['age_l'] }} до {{ dct['age_r'] }} лет.</p>
+{% endif %}
+
+</body>
+</html>
