@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Названия посуды</title>
+</head>
+<body>
+
+<form action="http://127.0.0.1:5000/" method="GET">
+	<p><b>НАЗВАНИЯ ПОСУДЫ</b></p>
+	<p>Возраст: <input type="text" name="age" value=""></p>
+	<p>Пол:
+		<input type="radio" name="sex" value="male">М
+		<input type="radio" name="sex" value="female">Ж
+	</p>
+	
+	<p><b>Отметьте, как, на Ваш взгляд, называется изображенная посуда.</b></p>
+	<div>		
+		<input type="radio" name="type_1" value="plate">Тарелка<br>
+		<input type="radio" name="type_1" value="bowl">Миска<br>
+		<input type="radio" name="type_1" value="cup">Чашка<br>
+		<input type="radio" name="type_1" value="saucer">Блюдце<br>
+		<input type="radio" name="type_1" value="tea-bowl">Пиала<br>
+		<input type="radio" name="type_1" value="salad-bowl">Салатник/Салатница<br>
+		<input type="radio" name="type_1" value="little-bowl">Плошка<br>	
+		<img src="{{url_for('static', filename='bowl.png')}}" />
+	</div>
+	<br>
+	<div>
+		<input type="radio" name="type_2" value="plate">Тарелка<br>
+		<input type="radio" name="type_2" value="bowl">Миска<br>
+		<input type="radio" name="type_2" value="cup">Чашка<br>
+		<input type="radio" name="type_2" value="saucer">Блюдце<br>
+		<input type="radio" name="type_2" value="tea-bowl">Пиала<br>
+		<input type="radio" name="type_2" value="salad-bowl">Салатник/Салатница<br>
+		<input type="radio" name="type_2" value="little-bowl">Плошка<br>	
+		<img src="{{url_for('static', filename='little-bowl.png')}}" />
+	</div>
+	<br>
+	<div>		
+		<input type="radio" name="type_3" value="plate">Тарелка<br>
+		<input type="radio" name="type_3" value="bowl">Миска<br>
+		<input type="radio" name="type_3" value="cup">Чашка<br>
+		<input type="radio" name="type_3" value="saucer">Блюдце<br>
+		<input type="radio" name="type_3" value="tea-bowl">Пиала<br>
+		<input type="radio" name="type_3" value="salad-bowl">Салатник/Салатница<br>
+		<input type="radio" name="type_3" value="little-bowl">Плошка<br>	
+		<img src="{{url_for('static', filename='salad-bowl.png')}}" />
+	</div>
+	<br>
+	<div>		
+		<input type="radio" name="type_4" value="plate">Тарелка<br>
+		<input type="radio" name="type_4" value="bowl">Миска<br>
+		<input type="radio" name="type_4" value="cup">Чашка<br>
+		<input type="radio" name="type_4" value="saucer">Блюдце<br>
+		<input type="radio" name="type_4" value="tea-bowl">Пиала<br>
+		<input type="radio" name="type_4" value="salad-bowl">Салатник/Салатница<br>
+		<input type="radio" name="type_4" value="little-bowl">Плошка<br>	
+		<img src="{{url_for('static', filename='tea-bowl.png')}}" />
+	</div>
+	<br>
+	<div>		
+		<input type="radio" name="type_5" value="plate">Тарелка<br>
+		<input type="radio" name="type_5" value="bowl">Миска<br>
+		<input type="radio" name="type_5" value="cup">Чашка<br>
+		<input type="radio" name="type_5" value="saucer">Блюдце<br>
+		<input type="radio" name="type_5" value="tea-bowl">Пиала<br>
+		<input type="radio" name="type_5" value="salad-bowl">Салатник/Салатница<br>
+		<input type="radio" name="type_5" value="little-bowl">Плошка<br>	
+		<img src="{{url_for('static', filename='bowl2.png')}}" />
+	</div>
+	<br>
+	<div>		
+		<input type="radio" name="type_6" value="plate">Тарелка<br>
+		<input type="radio" name="type_6" value="bowl">Миска<br>
+		<input type="radio" name="type_6" value="cup">Чашка<br>
+		<input type="radio" name="type_6" value="saucer">Блюдце<br>
+		<input type="radio" name="type_6" value="tea-bowl">Пиала<br>
+		<input type="radio" name="type_6" value="salad-bowl">Салатник/Салатница<br>
+		<input type="radio" name="type_6" value="little-bowl">Плошка<br>	
+		<img src="{{url_for('static', filename='soup-bowl.png')}}" />
+	</div>
+	<br>
+	
+	<p><input type="submit" value="Отправить"></p>
+</form>
+
+</body>
+</html>
