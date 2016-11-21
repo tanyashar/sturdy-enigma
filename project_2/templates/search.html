@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SEARCH</title>
+</head>
+<body>
+
+<p><b>На этой странице пользователь отмечает одно из предложенных изображений и указывает диапазон возраста информантов.</b></p>
+<p><b>Это нужно для того, чтобы узнать, как бы информанты указанного возраста назвали посуду с изображения.</b></p><br>
+
+<form action="http://127.0.0.1:5000/results" method="GET">
+	<p>Отметьте интересующее Вас изображение:</p>
+	<div><input type="radio" name="type" value="type_1"><img src="{{url_for('static', filename='bowl.png')}}" /></div>
+	<br>
+	<div><input type="radio" name="type" value="type_2"><img src="{{url_for('static', filename='little-bowl.png')}}" /></div>
+	<br>
+	<div><input type="radio" name="type" value="type_3"><img src="{{url_for('static', filename='salad-bowl.png')}}" /></div>
+	<br>
+	<div><input type="radio" name="type" value="type_4"><img src="{{url_for('static', filename='tea-bowl.png')}}" /></div>
+	<br>
+	<div><input type="radio" name="type" value="type_5"><img src="{{url_for('static', filename='bowl2.png')}}" /></div>
+	<br>
+	<div><input type="radio" name="type" value="type_6"><img src="{{url_for('static', filename='soup-bowl.png')}}" /></div>
+	<br>
+	
+	<p>Возраст информантов: от <input type="text" name="age_l" value=""> до <input type="text" name="age_r" value=""></p>
+	
+	<p><input type="submit" value="Отправить"></p>
+</form>
+
+</body>
+</html>
