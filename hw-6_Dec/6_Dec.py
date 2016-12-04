@@ -44,7 +44,6 @@ def unique(paper, name):
             a.append(i)
     return a
 
-#common_url = 'https://news.yandex.ru/yandsearch?lr=213&cl4url=www.interfax.ru%2Fworld%2F539758&lang=ru&rubric=science&from=rubric'
 links={'regnum':'https://regnum.ru/news/society/2213203.html', 'izv':'http://izvestia.ru/news/649332', 'kp':'http://www.kp.ru/online/news/2589020/', 'tass':'http://tass.ru/nauka/3838714'}
 news={}
 
