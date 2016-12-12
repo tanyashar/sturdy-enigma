@@ -7,6 +7,7 @@ VARCHAR - текстовый тип
 INTEGER - число
 
 CREATE TABLE users (id INTEGER PRIMARY KEY,
+PRIMARY KEY позволяет связывать таблицы друг с другом (здесь - через id)
 				  	first_name VARCHAR(100));		//100 - макс длина текста
 ф-ия	что создаем(тип)	название	(поле, тип поля);
 
