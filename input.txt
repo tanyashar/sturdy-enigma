@@ -1,0 +1,11 @@
+lemon 1 84 10 kg
+apple 11 90 1.2 kg
+orange 111 96 0.6 kg
+tomato 11111 108 3 kg
+potato 111111 114 1 kg
+cucumber 1111111 120 7 kg
+candy 029 90 23 pieces
+chupa-chups 029029 95 17 pieces
+honey 841 340 2 pieces
+water 9378 10 235 l
+juice 93789378 128 710 l
